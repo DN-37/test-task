@@ -1,0 +1,51 @@
+.select {
+    width: 559px;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 576px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__label {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 19px;
+    }
+
+    &__field {
+        display: block;
+        padding: 6px;
+        padding-left: 12px;
+        width: 336px;
+        font-size: 16px;
+        border: none;
+        border: 1px solid #999999;
+        cursor: pointer;
+
+        &_error {
+            margin-top: 5px;
+            font-size: 12px;
+            color: #ff0000;
+        }
+
+        &_invalid {
+            border: 1px solid #FF0000;
+        }
+
+        @media screen and (max-width: 375px) {
+            width: 280px;
+        }
+    }
+
+    &__option {
+        cursor: pointer;
+
+        &_big {
+            font-weight: 700;
+        }
+    }
+
+
+}

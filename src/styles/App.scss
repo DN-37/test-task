@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app {
+    padding: 30px 20px 40px 100px;
+
+    @media screen and (max-width: 1024px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    hr {
+        margin-top: 32px;
+        width: 70vw;
+        border: 1px solid #E5E4E4;
+    }
+}
