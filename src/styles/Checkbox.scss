@@ -1,0 +1,42 @@
+.checkbox {
+    display: flex;
+    margin-top: 40px;
+
+    &__label {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 19px;
+        margin-right: 115px;
+
+        @media screen and (max-width: 910px) {
+            margin-right: 10px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__field {
+        width: 12px;
+        height: 12px;
+    }
+
+    &__note {
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+
+        @media screen and (max-width: 576px) {
+            width: 250px;
+        }
+    }
+
+    &__error-caption {
+        margin-top: 5px;
+        font-size: 14px;
+        color: red;
+    }
+}
