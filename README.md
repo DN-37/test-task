@@ -1,3 +1,6 @@
+<h3>Посмотреть тестовое задание можно по ссылке ниже:</h3>
+<a href="https://t3st-task.netlify.app/" target="_blank">Тестовое задание
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
